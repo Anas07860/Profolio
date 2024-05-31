@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Ahmed Ather's Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #1f1f1f;
+            color: #ffffff;
+            padding: 20px 0;
+            border-bottom: #007bff 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        header a:hover {
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            padding: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section#showcase {
+            min-height: 400px;
+            background: url('tech-bg.jpg') no-repeat center center/cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 60px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        section#showcase h1 {
+            margin-top: 0;
+            font-size: 55px;
+            letter-spacing: 2px;
+        }
+        section#showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #1f1f1f;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        .content img {
+            border-radius: 50%;
+            max-width: 150px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .certificates img {
+            max-width: 80%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .signature img {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #1f1f1f;
+            text-align: center;
+            border-top: #007bff 3px solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Anas Ahmed Ather</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>Crafting creative web applications with a passion for excellence</p>
+        </div>
+    </section>
+    <div class="container">
+        <section id="about" class="content">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Picture">
+            <p>Hello! My name is Anas Ahmed Ather. I am a Computer Science and Engineering major with a B.Tech from SRM IST, graduating with a CGPA of 9.25. I have a strong passion for crafting creative web applications. My programming skills include expertise in React.js as well as a strong foundation in SQL.</p>
+        </section>
+        <section id="portfolio" class="content">
+            <h2>Portfolio</h2>
+            <h3>Hospital Management System</h3>
+            <p>This project showcases my proficiency in SQL and frontend development. It is a comprehensive system for managing hospital operations and patient information.</p>
+        </section>
+        <section id="certificates" class="content">
+            <h2>Certificates</h2>
+            <div class="certificates">
+                <h3>Database Foundation by Oracle</h3>
+                <img src="certificate1.jpg" alt="Certificate 1">
+                                
+                <h3>Certified C programmer by SRMIST </h3>
+                <img src="certificate2.jpg" alt="Certificate 2">
+               
+                
+                <h3>Certified Python Programmer by Hackerrank </h3>
+                <img src="certificate3.jpg" alt="Certificate 3">
+                
+                
+                <h3>Certified AWS Clound Security</h3>
+                <img src="certificate4.jpg" alt="Certificate 4">
+                
+                
+                <!-- Add more certificates as needed -->
+            </div>
+        </section>
+        <section id="contact" class="content">
+            <h2>Contact</h2>
+            <p>You can reach me at:</p>
+            <p>Email: <a href="mailto:anasahmedather@gmail.com" style="color: #007bff;">anasahmedather@gmail.com</a></p>
+        </section>
+        <section id="signature" class="content signature">
+            <h2>Signature</h2>
+            <img src="signature.png" alt="Signature">
+        </section>
+    </div>
+    <footer>
+        <p>Design and Developed by Anas Ahmed Ather &copy; 2024</p>
+    </footer>
+</body>
+</html>
